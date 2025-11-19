@@ -1,0 +1,139 @@
+/* ═══════════════════════════════════════════════════════════
+   PREMIUM NOIR BUTTONS
+   Cinematic styling with glow effects
+   ═══════════════════════════════════════════════════════════ */
+
+.app-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.app-button:hover {
+  transform: translateY(-2px);
+}
+
+.app-button:active {
+  transform: translateY(0);
+}
+
+
+.app-button-primary {
+  background: var(--gradient-primary);
+  color: white;
+  box-shadow: var(--shadow-primary);
+}
+
+.app-button-primary:hover {
+  box-shadow: var(--shadow-primary-lg), var(--glow-primary-subtle);
+  filter: brightness(1.1);
+}
+
+.app-button-primary:active {
+  box-shadow: var(--shadow-sm);
+}
+
+
+.app-button-secondary {
+  background-color: var(--secondary-color);
+  color: white;
+  box-shadow: var(--shadow-md);
+}
+
+.app-button-secondary:hover {
+  background-color: var(--secondary-light);
+  box-shadow: var(--shadow-lg);
+}
+
+
+.app-button-danger {
+  background: var(--gradient-primary);
+  color: white;
+  box-shadow: var(--shadow-primary);
+}
+
+.app-button-danger:hover {
+  box-shadow: var(--shadow-primary-lg), var(--glow-primary-subtle);
+  filter: brightness(1.1);
+}
+
+
+.app-button-outline {
+  background-color: transparent;
+  border: 1.5px solid var(--border-light);
+  color: var(--text-primary);
+  box-shadow: none;
+}
+
+.app-button-outline:hover {
+  border-color: var(--primary-color);
+  background-color: rgba(196, 30, 58, 0.05);
+  box-shadow: var(--glow-primary-subtle);
+}
+
+
+.app-button-accent {
+  background: var(--gradient-accent);
+  color: var(--text-inverse);
+  box-shadow: var(--shadow-accent);
+}
+
+.app-button-accent:hover {
+  box-shadow: var(--shadow-accent-lg), var(--glow-accent-subtle);
+  filter: brightness(1.1);
+}
+
+
+.app-button-small {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  font-size: 0.75rem;
+}
+
+.app-button-large {
+  padding: var(--spacing-md) var(--spacing-lg);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+
+.app-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+  filter: none !important;
+}
+
+
+.app-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  transition: left var(--transition-slow);
+}
+
+.app-button:hover::before {
+  left: 100%;
+}

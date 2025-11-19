@@ -1,0 +1,198 @@
+:root {
+  /* ═══════════════════════════════════════════════════════════
+     PREMIUM NOIR COLOR PALETTE
+     Designed for cinematic elegance and optimal UX
+     ═══════════════════════════════════════════════════════════ */
+
+  
+  --primary-color: #c41e3a;        
+  --primary-dark: #8b1528;         
+  --primary-light: #e63946;        
+  --primary-glow: rgba(196, 30, 58, 0.25); 
+
+  
+  --secondary-color: #5b6d7a;      
+  --secondary-dark: #404a54;       
+  --secondary-light: #7a8c99;      
+
+  
+  --accent-color: #d4a574;         
+  --accent-dark: #b8935f;          
+  --accent-light: #e8c294;         
+  --accent-glow: rgba(212, 165, 116, 0.2); 
+
+  
+  --success-color: #059669;        
+  --success-dark: #047857;         
+  --success-light: #10b981;        
+
+  
+  --warning-color: #d97706;        
+  --warning-dark: #b45309;         
+  --warning-light: #f59e0b;        
+
+  
+  --danger-color: #c41e3a;         
+  --danger-dark: #8b1528;          
+  --danger-light: #e63946;         
+
+  /* ═══════════════════════════════════════════════════════════
+     BACKGROUND LAYERS - Cool Noir Tones
+     ═══════════════════════════════════════════════════════════ */
+
+  
+  --bg-primary: #0a0a0f;           
+  --bg-secondary: #131318;         
+  --bg-tertiary: #1a1a24;          
+  --bg-elevated: #22222e;          
+  --bg-input: #0f0f14;             
+  --bg-hover: #1d1d28;             
+
+  
+  --bg-glass: rgba(19, 19, 24, 0.8);    
+  --bg-overlay: rgba(10, 10, 15, 0.85); 
+
+  /* ═══════════════════════════════════════════════════════════
+     TEXT HIERARCHY - High Contrast & Readability
+     WCAG AA Compliant (4.5:1 minimum contrast)
+     ═══════════════════════════════════════════════════════════ */
+
+  --text-primary: #f8f9fa;         
+  --text-secondary: #b8bcc2;       
+  --text-tertiary: #8a8f98;        
+  --text-muted: #6b7280;           
+  --text-disabled: #4b5563;        
+  --text-inverse: #0a0a0f;         
+  --text-accent: #d4a574;          
+  --text-error: #e63946;           
+  --text-success: #10b981;         
+
+  /* ═══════════════════════════════════════════════════════════
+     BORDERS - Subtle & Elegant
+     ═══════════════════════════════════════════════════════════ */
+
+  --border-color: #1f1f2e;         
+  --border-light: #2d2d3f;         
+  --border-lighter: #3a3a4f;       
+  --border-accent: #d4a574;        
+  --border-primary: #c41e3a;       
+  --border-divider: #17171f;       
+  
+  
+  --spacing-xs: 0.25rem;    
+  --spacing-sm: 0.5rem;     
+  --spacing-md: 1rem;       
+  --spacing-lg: 1.5rem;     
+  --spacing-xl: 2rem;       
+  --spacing-2xl: 2.5rem;    
+  --spacing-3xl: 3rem;      
+
+  
+  --radius-sm: 0.25rem;     
+  --radius-md: 0.5rem;      
+  --radius-lg: 0.75rem;     
+  --radius-xl: 1rem;        
+  --radius-full: 9999px;
+
+  /* ═══════════════════════════════════════════════════════════
+     SHADOWS - Cinematic Depth
+     ═══════════════════════════════════════════════════════════ */
+
+  
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5),
+               0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.6),
+               0 4px 6px -2px rgba(0, 0, 0, 0.4);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.7),
+               0 10px 10px -5px rgba(0, 0, 0, 0.5);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+
+  
+  --shadow-primary: 0 4px 14px 0 rgba(196, 30, 58, 0.25);
+  --shadow-primary-lg: 0 8px 20px 0 rgba(196, 30, 58, 0.3),
+                        0 4px 8px 0 rgba(196, 30, 58, 0.2);
+  --shadow-accent: 0 4px 14px 0 rgba(212, 165, 116, 0.15);
+  --shadow-accent-lg: 0 8px 20px 0 rgba(212, 165, 116, 0.2);
+
+  
+  --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  --shadow-inner-lg: inset 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+
+  /* ═══════════════════════════════════════════════════════════
+     GLOWS - Neon Noir Effects
+     ═══════════════════════════════════════════════════════════ */
+
+  --glow-primary: 0 0 20px rgba(196, 30, 58, 0.4),
+                  0 0 40px rgba(196, 30, 58, 0.2);
+  --glow-primary-subtle: 0 0 10px rgba(196, 30, 58, 0.2);
+  --glow-accent: 0 0 20px rgba(212, 165, 116, 0.3),
+                 0 0 40px rgba(212, 165, 116, 0.15);
+  --glow-accent-subtle: 0 0 10px rgba(212, 165, 116, 0.15);
+
+  /* ═══════════════════════════════════════════════════════════
+     GRADIENTS - Cinematic Backgrounds
+     ═══════════════════════════════════════════════════════════ */
+
+  
+  --gradient-primary: linear-gradient(135deg, #c41e3a 0%, #8b1528 100%);
+  --gradient-primary-soft: linear-gradient(135deg,
+                           rgba(196, 30, 58, 0.1) 0%,
+                           rgba(139, 21, 40, 0.05) 100%);
+
+  
+  --gradient-accent: linear-gradient(135deg, #d4a574 0%, #b8935f 100%);
+  --gradient-accent-soft: linear-gradient(135deg,
+                          rgba(212, 165, 116, 0.1) 0%,
+                          rgba(184, 147, 95, 0.05) 100%);
+
+  
+  --gradient-noir: radial-gradient(circle at 20% 20%,
+                   rgba(196, 30, 58, 0.08) 0%,
+                   transparent 50%),
+                   radial-gradient(circle at 80% 80%,
+                   rgba(212, 165, 116, 0.06) 0%,
+                   transparent 50%);
+
+  --gradient-glass: linear-gradient(135deg,
+                    rgba(255, 255, 255, 0.05) 0%,
+                    rgba(255, 255, 255, 0.02) 100%);
+
+  
+  --gradient-overlay-top: linear-gradient(to bottom,
+                          rgba(10, 10, 15, 0.9) 0%,
+                          rgba(10, 10, 15, 0.4) 100%);
+  --gradient-overlay-bottom: linear-gradient(to top,
+                             rgba(10, 10, 15, 0.9) 0%,
+                             rgba(10, 10, 15, 0.4) 100%);
+
+  
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', monospace;
+
+  
+  --text-xs: 0.75rem;       
+  --text-sm: 0.875rem;      
+  --text-base: 1rem;        
+  --text-lg: 1.125rem;      
+  --text-xl: 1.25rem;       
+  --text-2xl: 1.5rem;       
+  --text-3xl: 1.875rem;     
+  --text-4xl: 2.25rem;      
+
+  
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  
+  --leading-tight: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.75;
+}
